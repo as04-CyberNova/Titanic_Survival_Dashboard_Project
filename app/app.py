@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report, accuracy_score, confusion_mat
 
 st.title("Titanic Survival Dashboard")
 
-df = pd.read_csv("D:\\DATA_SCIENCE_AND_CODING\\DATA_SCIENCE\\titanic_survival_dashboard_project\\data\\titanic.csv")
+df = pd.read_csv("data\titanic.csv")
 df = df.replace("?", pd.NA)
 
 st.sidebar.header("Filters")
